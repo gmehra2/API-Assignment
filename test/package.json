@@ -1,0 +1,20 @@
+{
+    "name": "task-api",
+    "version": "1.0.0",
+    "description": "Task list API",
+    "main": "test.js",
+    "scripts": {
+           "test": "mocha"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "express": "^4.13.4",
+        "lowdb": "^0.12.5",
+        "uuid": "^2.0.2"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^2.4.5",
+        "supertest": "^1.2.0"
+    }
+}
